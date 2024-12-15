@@ -7,7 +7,7 @@ def header():
 
         col1, col2, col3 = st.columns([1, 2, 1])
         with col1:
-            st.markdown('<div style="text-align: center">The Dream of Icarus</div>', unsafe_allow_html=True)
+            st.markdown('<div style="text-align: center">Metarobotics</div>', unsafe_allow_html=True)
         with col2:
             st.markdown(f'<div style="text-align: center">Username: {st.session_state.username}</div>', unsafe_allow_html=True)
         with col3:
